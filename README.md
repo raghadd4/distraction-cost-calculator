@@ -4,6 +4,7 @@ A Python program that analyzes productivity distractions by calculating a weight
 
 ## What it does
 - Allows users to enter multiple distractions
+- Collects user-reported distractions
 - Assigns an importance level (1–5) to each distraction
 - Calculates a cost score using time × importance
 - Displays a summary and total distraction cost

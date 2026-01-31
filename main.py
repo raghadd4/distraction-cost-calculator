@@ -27,7 +27,8 @@ while True:
         break
 
 
-print("\n--- Distraction Summary ---")
+print("\n--- Distraction Impact Summary ---")
+
 for d in distractions:
     print(f"{d['name']} → Cost Score: {d['cost']}")
 
@@ -39,7 +40,7 @@ for d in distractions:
 
 print(f"\nTotal Distraction Cost: {total_cost}")
 
-
+# finds the distraction with the highest impact score
 most_costly = max(distractions, key=lambda d: d["cost"])
 print(f"\nMost costly distraction: {most_costly['name']} (Cost: {most_costly['cost']})")
 
