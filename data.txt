@@ -1,0 +1,4 @@
+youtube,5,53,265
+facebook,2,14,28
+instagram,3,66,198
+snapchat,4,30,120

@@ -22,6 +22,15 @@ while True:
     distraction = get_distraction()
     distractions.append(distraction)
 
+    with open("data.txt", "a") as file:
+       file.write(
+        f"{distraction['name']},"
+        f"{distraction['importance']},"
+        f"{distraction['time']},"
+        f"{distraction['cost']}\n"
+       )
+
+
     choice = input("Add another distraction? (y/n): ").lower()
     if choice != "y":
         break
@@ -43,5 +52,4 @@ print(f"\nTotal Distraction Cost: {total_cost}")
 # finds the distraction with the highest impact score
 most_costly = max(distractions, key=lambda d: d["cost"])
 print(f"\nMost costly distraction: {most_costly['name']} (Cost: {most_costly['cost']})")
-
 
