@@ -9,6 +9,7 @@ A Python program that analyzes productivity distractions by calculating a weight
 - Calculates a cost score using time × importance
 - Displays a summary and total distraction cost
 - Identifies the highest-cost distraction based on impact
+- Handles invalid user input safely using error handling
 
 
 ## Why this project
