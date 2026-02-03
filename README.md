@@ -1,6 +1,6 @@
 # Distraction Cost Calculator
-
-A Python program that analyzes productivity distractions by calculating a weighted cost based on time wasted and task importance.
+A Python-based command-line application that analyzes the real cost of distractions by weighting time wasted against task importance.
+The program stores data persistently and provides summary insights such as total, average, and highest-impact distractions.
 
 ## What it does
 - Allows users to enter multiple distractions
@@ -10,17 +10,26 @@ A Python program that analyzes productivity distractions by calculating a weight
 - Displays a summary and total distraction cost
 - Identifies the highest-cost distraction based on impact
 - Handles invalid user input safely using error handling
+- Stores distraction data persistently using file I/O
+- Displays total, average, and highest-cost distractions
 
 
 ## Why this project
 Time-based tracking alone doesn’t reflect real productivity loss.  
 This project focuses on **impact**, not just duration.
 
-## Technologies used
+## Technologies Used
 - Python
-- Functions
-- Loops
+- Functions and control flow
 - Lists and dictionaries
+- File I/O (persistent data storage)
+- Git & GitHub (version control)
+
+## How to Run
+1. Clone the repository
+2. Navigate to the project folder
+3. Run the program using:
+   python main.py
 
 ## Example
 Task name: YouTube

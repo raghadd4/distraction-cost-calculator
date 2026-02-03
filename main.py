@@ -1,3 +1,6 @@
+# This program collects user input and calculates a weighted distraction cost
+# based on task importance and time wasted.
+
 # Collects user input for one distraction, calculates its cost,
 # and returns the data as a dictionary
 def get_distraction(): 
